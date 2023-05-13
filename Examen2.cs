@@ -8,8 +8,8 @@ while (!salir)
     Console.WriteLine("1. Calcular indice de masa muscular");
     Console.WriteLine("2. Imprimir los numeros pares del 1 al 20.");
     Console.WriteLine("3. Calcular promedio notas");
-    Console.WriteLine("5. Sumar 5 y 4.");
-    Console.WriteLine("6. Salir");
+    Console.WriteLine("4. Sumar 5 y 4.");
+    Console.WriteLine("5. Salir");
     Console.WriteLine("==========================");
 
     Console.Write("Ingrese una opción: ");
