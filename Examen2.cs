@@ -8,7 +8,7 @@ while (!salir)
     Console.WriteLine("1. Calcular indice de masa muscular");
     Console.WriteLine("2. Imprimir los numeros pares del 1 al 20.");
     Console.WriteLine("3. Calcular promedio notas");
-    Console.WriteLine("4. Sumar 5 y 4.");
+    Console.WriteLine("4. Sumar dos números");
     Console.WriteLine("5. Salir");
     Console.WriteLine("==========================");
 
@@ -33,7 +33,7 @@ while (!salir)
             break;
 
         case "4":
-            Sumar(5, 4);
+            Sumar();
             break;
 
         case "5":
@@ -184,7 +184,7 @@ static double CalcularPromedioNotasAlumno(double totalNotas, int n)
     return promedioNotas;
 }
 
-static int Sumar(int Num1, int Num2)
+static int Sumar()
 {
     Console.WriteLine("");
     Console.WriteLine("Introduce un numero: ");
