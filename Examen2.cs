@@ -155,8 +155,8 @@ static void NotaAlumnos()
     double totalNotas = CalcularTotalNotasAlumno(Notas);
     double promedioHoras = CalcularPromedioNotasAlumno(totalNotas, n);
 
-    Console.WriteLine($"El total de horas trabajadas es: {totalNotas}");
-    Console.WriteLine($"El promedio de horas trabajadas por empleado es: {promedioHoras}");
+    Console.WriteLine($"Total de las notas de los alumnos: {totalNotas}");
+    Console.WriteLine($"El promedio de notas por alumno es: {promedioNotas}");
 }
 static double[] RegistrarNotasAlumno(int n)
 {
