@@ -191,7 +191,7 @@ static int Sumar()
     int num1 = int.Parse(Console.ReadLine());
     Console.WriteLine("Introduce otro numero: ");
     int num2 = int.Parse(Console.ReadLine());
-    return num1 + num2;
+    Console.Writeline(num1 + num2);
     
 
 }
