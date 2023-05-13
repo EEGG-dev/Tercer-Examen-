@@ -33,7 +33,7 @@ while (!salir)
             break;
 
         case "4":
-            Sumar();
+            Console.Writeline(Sumar());
             break;
 
         case "5":
@@ -153,7 +153,7 @@ static void NotaAlumnos()
 
     double[] Notas = RegistrarNotasAlumno(n);
     double totalNotas = CalcularTotalNotasAlumno(Notas);
-    double promedioHoras = CalcularPromedioNotasAlumno(totalNotas, n);
+    double promedioNotas = CalcularPromedioNotasAlumno(totalNotas, n);
 
     Console.WriteLine($"Total de las notas de los alumnos: {totalNotas}");
     Console.WriteLine($"El promedio de notas por alumno es: {promedioNotas}");
@@ -191,7 +191,7 @@ static int Sumar()
     int num1 = int.Parse(Console.ReadLine());
     Console.WriteLine("Introduce otro numero: ");
     int num2 = int.Parse(Console.ReadLine());
-    Console.Writeline(num1 + num2);
+    return num1 + num2;
     
 
 }
